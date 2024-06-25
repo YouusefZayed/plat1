@@ -1,0 +1,21 @@
+.popover {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 999999;
+}
+
+.list {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}

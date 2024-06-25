@@ -1,0 +1,38 @@
+.notifications-container {
+    position: relative;
+}
+
+.popover {
+    position: absolute;
+    top: 40px; /* Adjust according to your icon size */
+    right: 0;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.popover h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+.popover ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.popover ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.popover ul li:last-child {
+    border-bottom: none;
+}
